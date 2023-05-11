@@ -11,13 +11,9 @@
 	"eslint.run": "onType",
 	"eslint.format.enable": true,
 	"typescript.tsdk": "node_modules/typescript/lib",
-
+	
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": true,
 		"source.fixAll": true
-	},
-
-	"material-icon-theme.folders.associations": {
-		"places": "project",
 	}
 }

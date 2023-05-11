@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rbxtsc",
-    "watch": "rbxtsc -w"
+    "build:game": "rbxtsc -p ./places/game",
+    "build:shared": "rbxtsc -p ./shared"
   },
   "keywords": [],
   "author": "",

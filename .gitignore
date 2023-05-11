@@ -3,3 +3,7 @@
 /include
 *.tsbuildinfo
 flamework.build
+
+.vscode/settings.json
+/shared/out
+/places/*/out
