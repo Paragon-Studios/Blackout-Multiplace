@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:game": "rbxtsc -p ./places/game",
-    "build:shared": "rbxtsc -p ./shared"
+    "build:lobby": "rbxtsc -p ./places/lobby -i ./include"
   },
   "keywords": [],
   "author": "",

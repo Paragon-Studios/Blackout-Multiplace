@@ -18,6 +18,8 @@
 	},
 
 	"material-icon-theme.folders.associations": {
-		"places": "project"
+		"places": "project",
+		"places/lobby": "global",
+		"out/lobby": "global"
 	}
 }

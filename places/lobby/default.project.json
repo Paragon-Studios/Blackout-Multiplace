@@ -9,25 +9,31 @@
 		"ServerScriptService": {
 			"$className": "ServerScriptService",
 			"TS": {
-				"$path": "out/server"
+				"$path": "out/lobby/src/server"
+			},
+			"TS/common": {
+				"$path": "out/common/src/server"
 			}
 		},
 		"ReplicatedStorage": {
 			"$className": "ReplicatedStorage",
 			"rbxts_include": {
-				"$path": "include",
+				"$path": "../../include",
 				"node_modules": {
 					"$className": "Folder",
 					"@rbxts": {
-						"$path": "node_modules/@rbxts"
+						"$path": "../../node_modules/@rbxts"
 					},
 					"@flamework": {
-						"$path": "node_modules/@flamework"
+						"$path": "../../node_modules/@flamework"
 					}
 				}
 			},
 			"TS": {
-				"$path": "out/shared"
+				"$path": "out/lobby/src/shared"
+			},
+			"TS/common": {
+				"$path": "out/common/src/shared"
 			}
 		},
 		"StarterPlayer": {
@@ -35,7 +41,10 @@
 			"StarterPlayerScripts": {
 				"$className": "StarterPlayerScripts",
 				"TS": {
-					"$path": "out/client"
+					"$path": "out/lobby/src/client"
+				},
+				"TS/common": {
+					"$path": "out/common/src/client"
 				}
 			}
 		},
