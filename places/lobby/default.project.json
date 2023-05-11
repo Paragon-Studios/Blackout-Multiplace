@@ -15,8 +15,22 @@
 				"$path": "out/common/src/server"
 			}
 		},
+		"ServerStorage": {
+			"assets": {
+				"$path": "resources/server"
+			},
+			"assets/shared": {
+				"$path": "../common/resources/server"
+			}
+		},
 		"ReplicatedStorage": {
 			"$className": "ReplicatedStorage",
+			"assets": {
+				"$path": "resources/shared"
+			},
+			"assets/shared": {
+				"$path": "../common/resources/shared"
+			},
 			"rbxts_include": {
 				"$path": "../../include",
 				"node_modules": {

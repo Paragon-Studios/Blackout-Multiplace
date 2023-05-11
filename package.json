@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:lobby": "rbxtsc -p ./places/lobby -i ./include"
+    "compile:lobby": "rbxtsc -p ./places/lobby -i ./include",
+    "watch:lobby": "rbxtsc -w -p ./places/lobby -i ./include",
+    "build:lobby": "rojo build ./places/lobby/default.project.json -o ./places/lobby/dist.rbxlx",
+    "deploy:lobby": "npm run compile:lobby && npm run build:lobby"
   },
   "keywords": [],
   "author": "",
