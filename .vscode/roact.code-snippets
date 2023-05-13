@@ -1,0 +1,33 @@
+{
+	"Roact: Class Component": {
+		"description": "Create a Roact class component",
+		"prefix": ["roactclasscomponent", "classcomponent", "roactcc", "cc"],
+		"body": [
+			"import Roact, { Component } from \"@rbxts/roact\";",
+			"",
+			"interface Props {}",
+			"interface State {}",
+			"",
+			"export class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} extends Component<Props, State> {",
+			"\tpublic render() {",
+			"\t\treturn <></>;",
+			"\t}",
+			"}",
+			""
+		]
+	},
+	"Roact: Function Component": {
+		"description": "Create a Roact function component",
+		"prefix": ["roactfunctioncomponent", "functioncomponent", "roactfc", "fc"],
+		"body": [
+			"import Roact, { FunctionComponent } from \"@rbxts/roact\";",
+			"",
+			"interface Props {}",
+			"",
+			"export const C: FunctionComponent<Props> = () => {",
+			"\treturn <></>;",
+			"};",
+			""
+		],
+	}
+}
