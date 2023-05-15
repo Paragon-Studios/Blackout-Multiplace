@@ -1,0 +1,84 @@
+{
+	"name": "blackout-multiplayer",
+	"globIgnorePaths": [
+		"**/package.json",
+		"**/tsconfig.json"
+	],
+	"tree": {
+		"$className": "DataModel",
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"TS": {
+				"$path": "out/multiplayer/src/server"
+			},
+			"TS/common": {
+				"$path": "out/common/src/server"
+			}
+		},
+		"ServerStorage": {
+			"assets": {
+				"$path": "resources/server"
+			},
+			"assets/shared": {
+				"$path": "../common/resources/server"
+			}
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"assets": {
+				"$path": "resources/shared"
+			},
+			"assets/shared": {
+				"$path": "../common/resources/shared"
+			},
+			"rbxts_include": {
+				"$path": "../../include",
+				"node_modules": {
+					"$className": "Folder",
+					"@rbxts": {
+						"$path": "../../node_modules/@rbxts"
+					},
+					"@flamework": {
+						"$path": "../../node_modules/@flamework"
+					}
+				}
+			},
+			"TS": {
+				"$path": "out/multiplayer/src/shared"
+			},
+			"TS/common": {
+				"$path": "out/common/src/shared"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"TS": {
+					"$path": "out/multiplayer/src/client"
+				},
+				"TS/common": {
+					"$path": "out/common/src/client"
+				}
+			}
+		},
+		"Workspace": {
+			"$className": "Workspace",
+			"$properties": {
+				"FilteringEnabled": true
+			}
+		},
+		"HttpService": {
+			"$className": "HttpService",
+			"$properties": {
+				"HttpEnabled": true
+			}
+		},
+		"SoundService": {
+			"$className": "SoundService",
+			"$properties": {
+				"RespectFilteringEnabled": true
+			}
+		}
+	}
+}
