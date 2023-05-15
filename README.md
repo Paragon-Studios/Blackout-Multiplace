@@ -1,16 +1,14 @@
-# Flamework Template
 
-👋 Hey! This is a pre-configured template you can use for your projects that use [Flamework](https://fireboltofdeath.dev/docs/flamework/).
+# **Blackout**
 
-## Usage
+A tactical shooter FPS game inspired by Rainbow 6 Siege.
 
-First, create the folder on your computer where you want your project to be stored.
+[Trello](https://trello.com/b/L8wlMW8e)
 
-Then, open a terminal at that directory and run the following commands:
+[Development Discord](https://discord.gg/7Up7E66yZZ)
 
-```console
-npx degit rbxts-flamework/template
-npm i
-```
+## Contributing
 
-That's it! The template has been installed. For further information on how to use Flamework in your project, please see [here](https://fireboltofdeath.dev/docs/flamework).
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
