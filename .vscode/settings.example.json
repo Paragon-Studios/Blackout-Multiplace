@@ -17,9 +17,30 @@
 		"source.fixAll": true
 	},
 
+	"material-icon-theme.files.associations": {
+		"*.service.ts": "vite",
+		"*.controller.ts": "liquid",
+		"*.controller.tsx": "liquid",
+		"*.component.ts": "shaderlab",
+		"*.component.tsx": "shaderlab",
+
+		"*.action.ts": "redux-action",
+		"*.reducer.ts": "redux-reducer",
+		"actions.ts": "redux-action",
+		"reducer.ts": "redux-reducer"
+	},
 	"material-icon-theme.folders.associations": {
+		"*.service": "ngrx-entities",
+		"*.controller": "container",
+		"*.component": "unity",
+
+		"trees": "guard",
+
 		"places": "project",
 		"places/lobby": "global",
-		"out/lobby": "global"
-	}
+		"places/multiplayer": "global",
+		"out/lobby": "global",
+		"out/multiplayer": "global"
+	},
+	"material-icon-theme.activeIconPack": "none"
 }
