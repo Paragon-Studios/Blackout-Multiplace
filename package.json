@@ -7,7 +7,12 @@
     "compile:lobby": "rbxtsc -p ./places/lobby -i ./include",
     "watch:lobby": "rbxtsc -w -p ./places/lobby -i ./include",
     "build:lobby": "rojo build ./places/lobby/default.project.json -o ./places/lobby/dist.rbxlx",
-    "deploy:lobby": "npm run compile:lobby && npm run build:lobby"
+    "deploy:lobby": "npm run compile:lobby && npm run build:lobby",
+    
+    "compile:multiplayer": "rbxtsc -p ./places/multiplayer -i ./include",
+    "watch:multiplayer": "rbxtsc -w -p ./places/multiplayer -i ./include",
+    "build:multiplayer": "rojo build ./places/multiplayer/default.project.json -o ./places/multiplayer/dist.rbxlx",
+    "deploy:multiplayer": "npm run compile:multiplayer && npm run build:multiplayer"
   },
   "keywords": [],
   "author": "",
