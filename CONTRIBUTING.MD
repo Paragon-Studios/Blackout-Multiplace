@@ -2,7 +2,7 @@
 # **Contributing**
 
 ## How to get started
-Hello! I'm glad you're interested in becoming a potential contributor to our project! To get started:
+If you're interested in becoming a potential contributor to our project follow this steps! To get started:
 
 1. Fork or Clone this repository locally on your computer
 2. Install the project dependencies; This may vary depending on your package manager.
