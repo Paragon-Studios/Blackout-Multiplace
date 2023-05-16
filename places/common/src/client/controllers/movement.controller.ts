@@ -1,4 +1,5 @@
 import { Controller, OnStart } from "@flamework/core";
+import { LeanState } from "../../../resources/shared/enum/lean-state";
 
 @Controller()
 export class MovementController implements OnStart {
@@ -15,6 +16,12 @@ export class MovementController implements OnStart {
 	 * @param state isProne?
 	 */
 	public setProne(state: boolean) {}
+
+	/**
+	 * Sets the player's lean state
+	 * @param state lean state
+	 */
+	public setLean(state: LeanState) {}
 
 	/**
 	 * Gets the player's crouch state
