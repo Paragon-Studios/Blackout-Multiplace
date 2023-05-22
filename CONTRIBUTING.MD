@@ -2,7 +2,7 @@
 # **Contributing**
 
 ## How to get started
-If you're interested in becoming a potential contributor to our project follow this steps! 
+If you're interested in becoming a potential contributor to our project follow this steps 
 
 To get started:
 
